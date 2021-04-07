@@ -1,0 +1,307 @@
+@font-face{
+	font-family:"Open-24-Display-St";
+	src:url("fonts/Open-24-Display-St.ttf");
+	font-weight:normal;
+}
+
+@font-face{
+	font-family:"Cuprum";
+	src:url("fonts/Cuprum-Italic.ttf");
+	font-weight:normal;
+}
+
+body{
+	background: url(images/bg.jpg) no-repeat;
+	background-size: cover;
+	/*background-attachment: fixed;
+	background-position: center;*/
+}
+.container{ 
+	width: 900px;
+	margin: auto;
+	/*background-color: #ABA5A5;*/
+	border: 1px solid black;
+	padding: 15px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+	box-shadow: 7px 7px 5px black;
+}
+.header{
+	background: white;
+	color: white;
+	padding: 20px;
+	border-radius: 10px;
+	border: 1px solid #000;
+	border-bottom: 8px solid #000;
+
+}
+.header h1{
+	font-size: 60px;
+	font-family: Cuprum;
+}
+
+.header .navbar {
+	/*background: #ABA5A5;*/
+	width: 100%;
+	height: 38px;
+	border: 1px solid #000;
+	padding: 5px;
+	border-radius: 5px;
+}
+.header .navbar .isiNav{
+	float: left;
+	width: 30%;
+}
+.header .navbar .running{
+	float: left;
+	width: 70%;
+	line-height: 38px;
+	color: red;
+	font-family: Open-24-Display-St;
+	font-size: 18px;
+	font-weight: bold;
+}
+.header .navbar ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+.header .navbar ul li{
+	display: inline-block;
+}
+
+.kirim{
+	font-weight: bold;
+	font-size: 15px;
+	background: orange;
+	padding: 10px;
+	border: 1px solid blue;
+	border-radius: 5px;
+}
+.kirim:hover{
+	background: #000;
+	border: 1px solid white;
+	color: white; 
+}
+.header .navbar ul li a{
+	display: block;
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 15px;
+	background: orange;
+	padding: 10px;
+	border: 1px solid blue;
+	border-radius: 5px;
+}
+.header ul li a:hover{
+	color: white;
+	text-decoration: none;
+	background: #000;
+	border: 1px solid white;
+}
+.main{
+	width: 100%;
+	margin-top: 10px;
+	border-radius: 10px;
+	min-height: 500px;
+	/*background: white;*/
+	/*color: white;*/
+	border: 1px solid black;
+	border-top: 8px solid #000;
+	border-bottom: 8px solid #000;
+	border-radius: 10px 10px 10px 10px;
+}
+.main .post{
+	float: left;
+	width: 63%;
+	height: 100%;
+	margin: 10px;
+	color: white;
+}
+.main .post .bingkai{
+	border: 1px solid #000;
+	border-radius: 10px;
+	padding: 10px;
+	margin-bottom: 5px;
+}
+.main .sidebar{
+	float: left;
+	width: 30%;
+	padding: 10px;
+}
+.main .sidebar ul{
+	list-style-type: none;
+	padding: 0;
+}
+.clear{
+	clear: both;
+}
+.main .post h1{
+	color : blue;
+}
+
+::selection {
+  color: red;
+  background: yellow;
+}
+.main .post .foto{
+	background: transparent;
+	width: 30%;
+	float: left;
+}
+.main .post .isi{
+	background: transparent;
+	width: 66%;
+	float: left;
+	padding: 10px;
+	padding-top: 0px;
+	color: #fff;
+}
+.main .post .isi .judulisi{
+	font-size: 25px;
+	font-weight: bold;
+	background: #DDDCDC;
+	border: 1px solid #000;
+	color: black;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 3px;
+	border-radius: 10px;
+}
+.main .post .isi .selengkapnya{
+	text-align: right;
+	margin-bottom: 10px;
+}
+.main .post .isi .selengkapnya a{
+	font-size: 14px;
+	text-decoration: none;
+	background: white;
+	padding: 5px;
+	border: 1px solid black;
+	border-radius: 15px;
+	color: black;
+}
+.main .post .isi .selengkapnya a:hover{
+	background: black;
+	color: white;
+
+}
+.footer{
+	background: blue;
+	color: white;
+	padding: 20px;
+	border-top: 8px solid #000;
+	border-radius: 10px;
+	margin-top: 10px;
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+}
+img{
+	border: 1px solid #000;
+	border-radius: 10px;
+}
+
+input, textarea{
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+input:hover,input:active, textarea:hover{
+	outline: none;
+	/*border: none;*/
+}
+
+table#about{
+	font-size: 20px;
+}
+
+/*
+	Script Created By Cipeuris 10/04/2020
+	update 26/03/2021
+*/
+
+
+/* https://stackoverflow.com/questions/54702124/rainbow-text-animation-using-only-css */
+
+#shadowBox {
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.2);
+    /* Black w/opacity/see-through */
+    border: 3px solid;
+}
+
+.rainbow {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 32px;
+    font-family: monospace;
+    letter-spacing: 5px;
+}
+.rainbow_text_animated {
+    background: linear-gradient(to right, #6666ff, #0099ff , #00ff00, #ff3399, #6666ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbow_animation 6s ease-in-out infinite;
+    background-size: 400% 100%;
+}
+
+@keyframes rainbow_animation {
+    0%,100% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 100% 0;
+    }
+}
+
+
+/* https://codepen.io/nohoid/pen/kIfto */
+.wrapper { 
+	/*height: 100%;*/
+	/*width: 100%;*/
+	left:0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	/*position: absolute;*/
+	background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+	background-size: 1800% 1800%;
+
+	-webkit-animation: rainbow 18s ease infinite;
+	-z-animation: rainbow 18s ease infinite;
+	-o-animation: rainbow 18s ease infinite;
+	animation: rainbow 18s ease infinite;}
+
+@-webkit-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-moz-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-o-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@keyframes rainbow { 
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
